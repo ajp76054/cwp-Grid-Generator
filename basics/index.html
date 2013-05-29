@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <section id="wrapper">
+        
+        </section>
+    </body>
+</html>
+<script type="text/javascript">
+    
+    //Get the container width and height...
+    var wrapper = $('#wrapper'), //Container variable...
+        w = wrapper.width(), //Width variable...
+        h = wrapper.height(), //Height variable...
+        bw = w / 15, //Box width...
+        bh = h /15; //Box height...
+        
+    for(var i = 0; i < (15 * 15); i++){
+        $('<div class="blocks"></div>').appendTo(wrapper);
+    }
+        
+</script>

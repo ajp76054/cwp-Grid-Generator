@@ -1,0 +1,24 @@
+/* line 2, ../sass/style.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, ../sass/style.scss */
+#wrapper {
+  width: 600px;
+  height: 600px;
+  margin: 10% auto;
+  border: 1px solid #000;
+}
+
+/* line 16, ../sass/style.scss */
+.blocks {
+  border: 1px solid #000;
+  width: 40px;
+  height: 40px;
+  float: left;
+  box-sizing: border-box;
+}
