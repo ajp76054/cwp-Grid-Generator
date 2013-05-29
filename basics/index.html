@@ -18,9 +18,14 @@
         h = wrapper.height(), //Height variable...
         bw = w / 15, //Box width...
         bh = h /15; //Box height...
-        
-    for(var i = 0; i < (15 * 15); i++){
-        $('<div class="blocks"></div>').appendTo(wrapper);
+    
+    for(var j = 0; j < 15; j++){
+        $('<section class="rows a-pattern"></section>').appendTo(wrapper);
     }
-        
+    
+    $('.rows').each(function(){
+        for(var i = 0; i < (15); i++){
+            $('<div class="blocks"></div>').appendTo($(this));
+        }
+    });        
 </script>
